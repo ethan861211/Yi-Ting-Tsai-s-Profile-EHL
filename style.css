@@ -1,0 +1,109 @@
+
+body{
+background: rgb(230, 230, 230);
+text-align: center;
+font-family: monospace;
+background: navajowhite;
+animation: change-bg 3s infinite;
+}
+
+h1{
+font-size: 40px;
+font-weight: bold;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+img{
+width: 300px;
+border-radius: 20px;
+}
+
+a{
+background: skyblue;
+border-radius: 36px;
+color: darkblue;
+font-size: 24px;
+text-decoration: none;
+padding: 18px 22px;
+margin: 26px;
+padding-bottom: 15px;
+}
+
+a:hover{
+background: navajowhite;
+color: black;
+}
+
+p{
+	margin: 28px 0;
+	font-size: 24px;
+}
+
+ul{
+	display: inline-flex;
+	padding-left: 0;
+	
+}
+
+li{
+	display: inline-block;	
+}
+
+@keyframes change-bg{
+	0%{
+		background: white;
+	}
+	70%{
+		background: navajowhite;
+	}
+	100%{
+		background: white;
+	}
+}
+
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+.card-white{
+	background: white;
+	border-style: solid	;
+	border-radius: 50px;
+	color: black;
+	margin: 36px 0;
+	padding: 26px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-white:hover{
+	background: pink;
+}
+
+@media(max-width: 720px){
+.container{
+	width: 500px;
+}
+}
+
+@media(max-width: 720px){
+.container{
+	width: 300px;
+}
+}
+
+
+
+
+
+
+
+
+
